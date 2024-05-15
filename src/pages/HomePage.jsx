@@ -30,7 +30,7 @@ function HomePage() {
   return (
     <section className="home-page">
       <div className="thread-list mx-auto max-w-6xl bg-gray-100 p-6 flex flex-col gap-y-4 mt-10">
-        <h1 className="text-2xl font-semibold text-gray-800">Diskusi tersedia</h1>
+        <h1 className="text-2xl font-semibold text-gray-800">Discussion available</h1>
         <ThreadList threads={threadList} />
       </div>
     </section>

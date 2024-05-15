@@ -8,7 +8,7 @@ function Navigation({ authUser, signOut }) {
     <Navbar fluid rounded className="border-gray-500 border-2 rounded-lg mt-2 shadow-lg">
       <div>
         <h1 className="self-center whitespace-nowrap text-3xl font-bold dark:text-white">
-          <Link to="/">Forum Diskusi</Link>
+          <Link to="/">Discussion Forum</Link>
         </h1>
       </div>
 
