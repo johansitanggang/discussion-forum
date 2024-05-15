@@ -32,8 +32,7 @@ function ThreadItem({ id, title, body, category, createdAt, upVotesBy, downVotes
           </p>
         </div>
         <p className=" text-sm text-gray-700">
-          Created
-          {postedAt(createdAt)}
+          Created <span>{postedAt(createdAt)}</span>
         </p>
       </div>
     </div>
