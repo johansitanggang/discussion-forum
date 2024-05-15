@@ -68,10 +68,10 @@ describe('Login spec', () => {
       .click();
 
     cy.get('h1')
-      .contains(/^Diskusi tersedia$/)
+      .contains(/^Discussion available$/)
       .should('be.visible');
     cy.get('h1')
-      .contains(/^Forum Diskusi$/)
+      .contains(/^Discussion Forum$/)
       .should('be.visible');
 
     cy.get('.flex.flex-col.space-y-4.rounded-lg.bg-white.p-4.shadow-md').should('be.visible');
